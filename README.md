@@ -83,3 +83,26 @@ git push -u origin main
    Replace `main` with the name of your branch if you are working on a different branch.
 
 This will delete the files from the remote repository as well, reflecting the changes you've made locally.
+
+# Adding new folder
+
+1. **Stage the new folder**:
+
+```bash
+git add "if statements"
+   ```
+2. **If you want to stage all changes (including the new folder and any other modifications):**:
+
+```bash
+git add .
+   ```
+3. **Commit the changes**:
+
+```bash
+git commit -m "Added if statements folder with new code"
+   ```
+4. **Push the changes to the remote repository**:
+
+```bash
+git push origin main
+   ```
