@@ -13,6 +13,7 @@ git branch -m main
 3. **Set remote url**:
 
 ```bash
+git remote add origin https://github.com/sagniklangal/javascript.git
 git remote set-url origin https://github-token@github.com/username/repo name
    ```
 4. **Stage the folders and files**:
