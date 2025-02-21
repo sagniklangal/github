@@ -147,3 +147,15 @@ ls
 ```bash
 git clone repo link folder name/
    ```
+
+# Tracking a remote repository
+
+### 1️⃣ Knowing status:
+```bash
+git status
+```
+
+### 2️⃣ Tracking changes
+```bash
+git diff
+```
