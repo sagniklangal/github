@@ -177,3 +177,8 @@ git log -3
 ```bash
 git log -p
    ```
+### Checking last commits in one line:
+
+```bash
+git log --oneline
+   ```
