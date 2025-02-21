@@ -107,3 +107,37 @@ git commit -m "Added if statements folder with new code"
 ```bash
 git push origin main
    ```
+
+# Folder entering
+
+### 1️⃣ Using Quotes:
+```bash
+cd "Web development"
+```
+
+### 2️⃣ Using Escape Character (`\` before space):
+```bash
+cd Web\ development
+```
+
+### 3️⃣ If the Folder is Inside Another Directory:
+If the folder is inside another directory, specify the full or relative path:
+```bash
+cd ~/Documents/"Web development"
+```
+or
+```bash
+cd ~/Documents/Web\ development
+```
+
+### 4️⃣ Using Tab Completion:
+Type `cd Web` and press **Tab**, and it will auto-complete the name.
+
+To check if you've entered the folder, use:
+```bash
+pwd
+```
+or list files inside:
+```bash
+ls
+```
