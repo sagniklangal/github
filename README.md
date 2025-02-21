@@ -167,12 +167,12 @@ git diff
 ```bash
 git log
    ```
-### Checking last particular commits:
+### Checking last n number of commits:
 
 ```bash
 git log -3
    ```
-### Checking last commits with changes(diff):
+### Checking last committed files alongside the content(diff) in the files:
 
 ```bash
 git log -p
@@ -181,4 +181,19 @@ git log -p
 
 ```bash
 git log --oneline
+   ```
+### Checking last committed files(without actual content, only the no of changed lines are present):
+
+```bash
+git log --stat
+   ```
+### Knowing the  changes in a particular commit:
+
+```bash
+git show sha id
+   ```
+### Restore a file:
+
+```bash
+git restore filename
    ```
