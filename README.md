@@ -162,17 +162,17 @@ git diff
 
 # Checking history
 
-###Checking commits(Press enter for loading more commits):
+### Checking commits(Press enter for loading more commits):
 
 ```bash
 git log
    ```
-###Checking last particular commits:
+### Checking last particular commits:
 
 ```bash
 git log -3
    ```
-###Checking last commits with changes(diff):
+### Checking last commits with changes(diff):
 
 ```bash
 git log -p
