@@ -159,3 +159,21 @@ git status
 ```bash
 git diff
 ```
+
+# Checking history
+
+1. **Checking commits(Press enter for loading more commits)**:
+
+```bash
+git log
+   ```
+2. **Checking last particular commits**:
+
+```bash
+git log -3
+   ```
+3. **Checking last commits with changes(diff)**:
+
+```bash
+git log -p
+   ```
