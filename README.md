@@ -141,3 +141,9 @@ or list files inside:
 ```bash
 ls
 ```
+
+# Cloning a repository
+
+```bash
+git clone repo link folder name/
+   ```
