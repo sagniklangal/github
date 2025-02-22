@@ -1,3 +1,8 @@
+### Adding a file to staging and commiting both:
+
+```bash
+git commit -am "merge sort added"
+   ```
 # Repo push
 
 1. **Git initialization**:
@@ -196,4 +201,46 @@ git show sha id
 
 ```bash
 git restore filename
+   ```
+# Branching, merging and tagging
+
+### Checking how many branches:
+
+```bash
+git branch
+   ```
+### Create a new branch:
+
+```bash
+git branch branch name
+   ```
+### Switching to a branch:
+
+```bash
+git checkout branch name
+   ```
+### Creating and switching to a branch:
+
+```bash
+git checkout -b branch name
+   ```
+### Merging into a branch:
+
+```bash
+git merge branch name
+   ```
+### Deleting a branch:
+
+```bash
+git branch -d branch name
+   ```
+### Tagging:
+
+```bash
+git tag -a version name shaid of the commit -m "Message"
+   ```
+### Deleting a tag:
+
+```bash
+git tag -d betaV1.0
    ```
