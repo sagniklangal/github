@@ -244,3 +244,25 @@ git tag -a version name shaid of the commit -m "Message"
 ```bash
 git tag -d betaV1.0
    ```
+# undo commands
+
+### Amend the most recent commit:
+
+```bash
+git commit --amend
+   ```
+### Revert commit:
+
+```bash
+git revert shaid
+   ```
+### Revert commit:
+
+```bash
+git revert shaid
+   ```
+### Reset(Delete) commit(Give shaid of the commit where the head is needed to be pointed):
+
+```bash
+git reset --soft shaid
+   ```
